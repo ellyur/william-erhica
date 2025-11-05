@@ -22,7 +22,7 @@ const Footer = () => {
             <h2 className="text-3xl sm:text-4xl mb-2 text-foreground" style={{ fontFamily: 'Boska, serif', fontWeight: 300 }}>
               William
               <span className="text-foreground mx-3">&</span>
-              Erica
+              Erhica
             </h2>
             <p className="text-foreground/80 text-lg">
               January 10, 2026 • The Garden Hive Events Place, Antipolo City
@@ -49,7 +49,7 @@ const Footer = () => {
               With love and gratitude,
             </p>
             <p className="text-foreground" style={{ fontFamily: 'Boska, serif', fontWeight: 300 }}>
-              William & Erica
+              William & Erhica
             </p>
           </div>
         </motion.div>
