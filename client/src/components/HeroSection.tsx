@@ -35,7 +35,7 @@ const HeroSection = () => {
             {animationsEnabled ? (
               <TypeAnimation
                 sequence={[
-                  'WILLIAM\n&\nERICA',
+                  'WILLIAM\n&\nERHICA',
                   () => {
                     setShowElements(true);
                   }
@@ -62,7 +62,7 @@ const HeroSection = () => {
                 <br />
                 &
                 <br />
-                ERICA
+                ERHICA
               </span>
             )}
           </h1>
@@ -86,7 +86,7 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          
+
           {/* RSVP Button */}
           <div className={`transition-all duration-700 opacity-100 mt-[10px] mb-[10px] ${animationsEnabled ? 'animate-fade-scale' : ''}`}>
             <a href="#rsvp">
