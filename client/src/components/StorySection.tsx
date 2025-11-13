@@ -5,9 +5,11 @@ import { motion } from 'framer-motion';
 import { useAnimationContext } from '@/contexts/AnimationContext';
 import { Heart, Gem, Church } from 'lucide-react';
 // Story images
-import storyImage1 from '@assets/1_1762162987199.JPG';
-import storyImage2 from '@assets/2_1762162987197.JPG';
-import storyImage3 from '@assets/3 (1)_1762183327715.JPG';
+import storyImage1 from '@assets/lovestory1_1763054220956.jpg';
+import storyImage2 from '@assets/lovestory2_1763054220956.jpg';
+import storyImage3 from '@assets/lovestory3_1763054220956.jpg';
+import storyImage4 from '@assets/lovestory4_1763054220957.jpeg';
+import storyImage5 from '@assets/lovestory5_1763054220957.jpg';
 
 // Register GSAP plugin
 gsap.registerPlugin(ScrollTrigger);

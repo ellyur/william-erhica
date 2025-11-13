@@ -1,6 +1,7 @@
 import { TypeAnimation } from 'react-type-animation';
 import { useState } from 'react';
 import { useAnimationContext } from '@/contexts/AnimationContext';
+import heroImage from '@assets/hero section_1763054214683.jpg';
 
 const HeroSection = () => {
   const [showElements, setShowElements] = useState(false);
@@ -10,22 +11,12 @@ const HeroSection = () => {
     <section 
       className="hero-section relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
     >
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        preload="auto"
+      <img
+        src={heroImage}
+        alt="Hero background"
         className="absolute inset-0 w-full h-full object-cover"
         style={{ objectFit: 'cover' }}
-        onEnded={(e) => {
-          const video = e.currentTarget;
-          video.currentTime = 0;
-          video.play();
-        }}
-      >
-        <source src="https://res.cloudinary.com/duy8geshi/video/upload/v1762084174/First_page_video_cxdoqo.mp4" type="video/mp4" />
-      </video>
+      />
       {/* Cinematic gradient overlay for better text readability */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70"></div>
       {/* Content */}

@@ -4,8 +4,9 @@ import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
 import MusicConsentPopup from '@/components/MusicConsentPopup';
 // Cover images from attached assets
-import cover2Image from '@assets/cover2_1762084295409.JPG';
-import cover3Image from '@assets/cover3_1762084295409.JPG';
+import cover1Image from '@assets/cover1_1763054214682.jpg';
+import cover2Image from '@assets/cover2_1763054214682.jpg';
+import cover3Image from '@assets/cover3_1763054214683.jpg';
 import CountdownSection from '@/components/CountdownSection';
 import StorySection from '@/components/StorySection';
 import ScrollTriggeredTimeline from '@/components/ScrollTriggeredTimeline';
@@ -106,14 +107,14 @@ const Index = () => {
           <CountdownSection />
           <StorySection />
           <CoverSection
-            videoUrl="https://res.cloudinary.com/duy8geshi/video/upload/v1762084375/Second_video_for_homepage_sejcje.mp4"
-            alt="Andrei & Sam Wedding Cover Video 1"
+            imageUrl={cover1Image}
+            alt="William & Erhica Wedding Cover Image 1"
           />
           <ScrollTriggeredTimeline />
           <VenueSection />
           <CoverSection
             imageUrl={cover2Image}
-            alt="Andrei & Sam Wedding Cover Image 2"
+            alt="William & Erhica Wedding Cover Image 2"
           />
           <DressCodeSection />
           <HashtagGiftsSection />
@@ -123,7 +124,7 @@ const Index = () => {
           <EntourageSection />
           <CoverSection
             imageUrl={cover3Image}
-            alt="Andrei & Sam Wedding Cover Image 3"
+            alt="William & Erhica Wedding Cover Image 3"
           />
           <FAQSection />
           <Footer />
