@@ -71,7 +71,7 @@ const HashtagGiftsSection = () => {
                 className="text-xl md:text-2xl font-display font-semibold text-foreground"
                 data-testid="text-hashtag-1"
               >
-                #NaniniwalaNaAkoSaForeBELLE
+                #WilliamAndErhicaWEdding
               </p>
             </motion.div>
             <motion.div
@@ -85,7 +85,7 @@ const HashtagGiftsSection = () => {
                 className="text-xl md:text-2xl font-display font-semibold text-foreground"
                 data-testid="text-hashtag-2"
               >
-                #SimulaNgMIKElalaKita
+                #WilCaWEdding
               </p>
             </motion.div>
             <motion.div
@@ -99,7 +99,7 @@ const HashtagGiftsSection = () => {
                 className="text-xl md:text-2xl font-display font-semibold text-foreground"
                 data-testid="text-hashtag-3"
               >
-                #MIKEfoundhisforeBELLE
+                #TogetherwithWilliamAndErhica
               </p>
             </motion.div>
           </div>

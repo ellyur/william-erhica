@@ -6,19 +6,18 @@ import { FolderOpen, Images, Folder, Camera } from 'lucide-react';
 import DomeGallery from './DomeGallery';
 
 // Prenup photos
-import prenup from '@assets/prenup_1762085059808.JPG';
-import prenup1 from '@assets/prenup2_1762085059809.JPG';
-import prenup2 from '@assets/prenup3_1762085059809.jpg';
-import prenup3 from '@assets/prenup4_1762085059809.JPG';
-import prenup4 from '@assets/cover2_1763054214682.jpg';
-import prenup5 from '@assets/prenup6_1762085059810.JPG';
-import prenup6 from '@assets/cover3_1763054214683.jpg';
-import prenup7 from '@assets/prenup8_1762085059811.JPG';
-import prenup8 from '@assets/prenup9_1762085059811.JPG';
-import prenup9 from '@assets/prenup10_1762085059812.JPG';
-import prenup10 from '@assets/prenup11_1762085059813.JPG';
-import prenup11 from '@assets/prenup12_1762085059813.JPG';
-import prenup12 from '@assets/prenup13_1762085059813.JPG';
+import prenup from '@assets/prenup1_1763097955999.jpg';
+import prenup1 from '@assets/prenup2_1763097955999.jpg';
+import prenup2 from '@assets/prenup3_1763097956000.jpg';
+import prenup3 from '@assets/prenup4_1763097956001.jpg';
+import prenup4 from '@assets/prenup5_1763097956001.jpg';
+import prenup5 from '@assets/prenup6_1763097956002.jpg';
+import prenup6 from '@assets/prenup7_1763097956002.jpg';
+import prenup7 from '@assets/prenup8_1763097956003.jpg';
+import prenup8 from '@assets/prenup9_1763097956004.jpg';
+import prenup9 from '@assets/prenup10_1763097956004.jpeg';
+import prenup10 from '@assets/prenup11_1763097956004.jpg';
+import prenup11 from '@assets/prenup12_1763097956005.jpg';
 
 const MemorableMomentsSection = () => {
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
@@ -36,8 +35,7 @@ const MemorableMomentsSection = () => {
     { src: prenup8, alt: "Prenup photo 9" },
     { src: prenup9, alt: "Prenup photo 10" },
     { src: prenup10, alt: "Prenup photo 11" },
-    { src: prenup11, alt: "Prenup photo 12" },
-    { src: prenup12, alt: "Prenup photo 13" }
+    { src: prenup11, alt: "Prenup photo 12" }
   ];
 
   const dialogImages = [
@@ -52,8 +50,7 @@ const MemorableMomentsSection = () => {
     { src: prenup8, title: "", description: "" },
     { src: prenup9, title: "", description: "" },
     { src: prenup10, title: "", description: "" },
-    { src: prenup11, title: "", description: "" },
-    { src: prenup12, title: "", description: "" }
+    { src: prenup11, title: "", description: "" }
   ];
 
   const handleImageClick = (index: number) => {
