@@ -170,3 +170,7 @@ Successfully migrated from Lovable to Replit environment:
   - Shows "Perfect Score!" message only for 5/5, "Amazing Score!" with actual score for 4/5
   - Implemented functional state updates for reliable score tracking
   - Adjusted invitation paper dimensions: wider (max-w-5xl) and shorter (reduced padding and spacing)
+- **2025-11-14**: Updated venue Google Maps integration:
+  - Updated venue map URL to https://maps.app.goo.gl/A1zUN5iYdtF2EDJt7
+  - Updated Google Maps embed with new coordinates for The Garden Hive Events Place in Antipolo City
+  - Verified map displays correct location with interactive features
