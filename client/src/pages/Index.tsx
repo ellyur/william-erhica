@@ -107,10 +107,6 @@ const Index = () => {
           <CountdownSection />
           <StorySection />
           <CoverSection
-            videoUrl="https://res.cloudinary.com/ds2vff7kd/video/upload/v1763094052/Yellow_-_Coldplay_BRIDGERTON_Brooklyn_Duo_f8incx.mp3"
-            alt="William & Erhica Wedding Cover Video 1"
-          />
-          <CoverSection
             imageUrl={cover1Image}
             alt="William & Erhica Wedding Cover Image 1"
           />
