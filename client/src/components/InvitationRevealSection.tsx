@@ -28,6 +28,7 @@ const InvitationRevealSection = () => {
 
   return (
     <motion.section 
+      id="invitation"
       className="section-hard-blue relative min-h-screen w-full overflow-hidden px-4"
       initial={animationsEnabled ? { opacity: 0 } : { opacity: 1 }}
       animate={{ opacity: 1 }}

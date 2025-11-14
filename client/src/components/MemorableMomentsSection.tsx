@@ -67,7 +67,7 @@ const MemorableMomentsSection = () => {
 
   return (
     <motion.section 
-      id="prenup-photos" 
+      id="memorable-moments" 
       className="section-hard-blue py-20 px-4 relative overflow-hidden"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}

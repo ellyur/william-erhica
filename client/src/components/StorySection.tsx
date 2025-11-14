@@ -52,7 +52,7 @@ const StorySection = () => {
     {
       id: 5,
       title: "Two Accounts, One Ledger — Forever in Balance",
-      text: "On Jan 10, 2026, we decided to tie the knot and finally live the life we've always dreamed of.",
+      text: "On Jan 10, 2026, we will tie the knot and finally live the life we've always dreamed of.",
       image: storyImage5,
       icon: Heart
     }

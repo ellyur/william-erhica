@@ -8,6 +8,7 @@ const HeroSection = () => {
 
   return (
     <section 
+      id="hero"
       className="hero-section relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
     >
       <video

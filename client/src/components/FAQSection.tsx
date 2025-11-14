@@ -43,6 +43,7 @@ const FAQSection = () => {
 
   return (
     <motion.section 
+      id="faq"
       className="section-pastel-blue py-20 px-4"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
