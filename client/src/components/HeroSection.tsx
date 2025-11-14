@@ -19,7 +19,7 @@ const HeroSection = () => {
         style={{ objectFit: 'cover' }}
       >
         <source
-          src="https://res.cloudinary.com/ds2vff7kd/video/upload/v1763094543/5_z26mhq.mp4"
+          src="https://res.cloudinary.com/ds2vff7kd/video/upload/v1763097110/hero-sec_rtueau.mp4"
           type="video/mp4"
         />
       </video>

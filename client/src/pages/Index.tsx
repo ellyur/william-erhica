@@ -104,6 +104,10 @@ const Index = () => {
         <main className="relative z-10">
           <HeroSection />
           <InvitationRevealSection />
+          <CoverSection
+            videoUrl="https://res.cloudinary.com/ds2vff7kd/video/upload/v1763097101/cover-new_lr0mhv.mp4"
+            alt="William & Erhica Wedding Cover Video - After Know Us"
+          />
           <CountdownSection />
           <StorySection />
           <CoverSection
@@ -121,6 +125,10 @@ const Index = () => {
             alt="William & Erhica Wedding Cover Image 2"
           />
           <DressCodeSection />
+          <CoverSection
+            videoUrl="https://res.cloudinary.com/ds2vff7kd/video/upload/v1763097088/cover-new1_dr1bo6.mp4"
+            alt="William & Erhica Wedding Cover Video - After Attire Guide"
+          />
           <CoverSection
             videoUrl="https://res.cloudinary.com/ds2vff7kd/video/upload/v1763094504/4_apnm5e.mp4"
             alt="William & Erhica Wedding Cover Video 2"
