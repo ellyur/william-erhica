@@ -304,7 +304,7 @@ const StorySection = () => {
                 
                 <div className="max-w-2xl mx-auto">
                   <p className="text-xl sm:text-2xl leading-relaxed italic mb-4 text-foreground/95">
-                    "The smallest one shall become a clan, and the least one a mighty nation; I, the Lord, will swiftly accomplish these things when the time comes."
+                    "Above all, clothe yourselves with love, which binds us all together in perfect harmony."
                   </p>
                   <p className="text-base sm:text-lg font-body text-foreground/90">Colossians 3:14</p>
                 </div>
