@@ -10,19 +10,18 @@ const HeroSection = () => {
     <section 
       className="hero-section relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
     >
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover"
-        style={{ objectFit: 'cover' }}
-      >
-        <source
-          src="https://res.cloudinary.com/ds2vff7kd/video/upload/v1763097110/hero-sec_rtueau.mp4"
-          type="video/mp4"
+      <div className="absolute inset-0 w-full h-full overflow-hidden">
+        <iframe
+          className="absolute youtube-background"
+          src="https://www.youtube.com/embed/YssOtKQeFfE?autoplay=1&mute=1&loop=1&playlist=YssOtKQeFfE&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1&enablejsapi=1"
+          title="Hero Background Video"
+          allow="autoplay; encrypted-media"
+          frameBorder="0"
+          style={{
+            pointerEvents: 'none'
+          }}
         />
-      </video>
+      </div>
       {/* Cinematic gradient overlay for better text readability */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70"></div>
       {/* Content */}
@@ -106,6 +105,28 @@ const HeroSection = () => {
       </div>
       {/* Improved mobile responsiveness */}
       <style>{`
+        /* YouTube background video styling */
+        .youtube-background {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 100vw;
+          height: 100vh;
+          transform: translate(-50%, -50%);
+        }
+
+        @media (aspect-ratio > 16/9) {
+          .youtube-background {
+            height: 56.25vw;
+          }
+        }
+
+        @media (aspect-ratio < 16/9) {
+          .youtube-background {
+            width: 177.78vh;
+          }
+        }
+
         .hero-section {
           min-height: 100vh !important;
         }
