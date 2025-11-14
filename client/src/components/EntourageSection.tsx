@@ -14,7 +14,7 @@ const EntourageSection = () => {
         <div className="absolute top-0 right-0 w-96 h-96 border border-primary/30 rounded-full transform translate-x-1/3 -translate-y-1/3"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 border border-primary/30 rounded-full transform -translate-x-1/3 translate-y-1/3"></div>
       </div>
-      
+
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <motion.h2 
           className="text-4xl md:text-5xl lg:text-6xl font-display italic text-foreground mb-12"
@@ -36,13 +36,13 @@ const EntourageSection = () => {
           <div className="grid grid-cols-2 gap-4 md:gap-8 mb-8">
             <div>
               <h3 className="text-sm md:text-lg font-semibold text-foreground mb-3">Parents of the Groom</h3>
-              <p className="text-foreground/90 text-xs md:text-sm">Mr. Gesmundo Ignacio</p>
-              <p className="text-foreground/90 text-xs md:text-sm">Mrs. Rosalia Ignacio</p>
+              <p className="text-foreground/90 text-xs md:text-sm">Mr. Warren William Dela Cuadra</p>
+              <p className="text-foreground/90 text-xs md:text-sm">Mrs. Leny Dela Cuadra</p>
             </div>
             <div>
               <h3 className="text-sm md:text-lg font-semibold text-foreground mb-3">Parents of the Bride</h3>
-              <p className="text-foreground/90 text-xs md:text-sm">Mr. Flavio Deza, Jr.</p>
-              <p className="text-foreground/90 text-xs md:text-sm">Mrs. Marieliza Deza</p>
+              <p className="text-foreground/90 text-xs md:text-sm">Mr. Roderick Penaflor</p>
+              <p className="text-foreground/90 text-xs md:text-sm">Mrs. Rhea Estanislao</p>
             </div>
           </div>
 
@@ -53,51 +53,39 @@ const EntourageSection = () => {
               <div>
                 <h4 className="text-sm md:text-md font-semibold text-foreground mb-4">NINONG</h4>
                 <div className="space-y-1 md:space-y-2">
-                  <p className="text-foreground/90 text-xs md:text-sm">Mr. Antonio Ramos</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Mr. Pedro Morito</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Mr. Rogelio Salavaria, Jr.</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Mr. Glen Castro</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Mr. Sherwin Maneclang</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Dr. Roberto Gonzales</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Mr. Noel Geronimo</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Mr. Joven Ballesteros</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Mr. Rufino Borja, Jr.</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Mr. Ronnie Marasigan</p>
+                  <p className="text-foreground/90 text-xs md:text-sm">Charles Dominique Rebebes</p>
+                  <p className="text-foreground/90 text-xs md:text-sm">Mark Joseph Florendo</p>
+                  <p className="text-foreground/90 text-xs md:text-sm">Ryan Atezora</p>
+                  <p className="text-foreground/90 text-xs md:text-sm">Roel F. Estanislao</p>
+                  <p className="text-foreground/90 text-xs md:text-sm">Jeremy Ebanks</p>
                 </div>
               </div>
               <div>
                 <h4 className="text-sm md:text-md font-semibold text-foreground mb-4">NINANG</h4>
                 <div className="space-y-1 md:space-y-2">
-                  <p className="text-foreground/90 text-xs md:text-sm">Mrs. Josephine Ramos</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Mrs. Roselle Morito</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Ms. Geralyn Dalisay</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Mrs. Lilibeth Castro</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Mrs. Renalyn Maneclang</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Mrs. Esperanza Escape</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Mrs. Evangeline Geronimo</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Mrs. Emily Ballesteros</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Mrs. Lea Emperador</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Mrs. Maricar Alipon</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Mrs. Myrna Famadico</p>
+                  <p className="text-foreground/90 text-xs md:text-sm">Mary Mae Rebebes</p>
+                  <p className="text-foreground/90 text-xs md:text-sm">Vaneza Rochelle Florendo</p>
+                  <p className="text-foreground/90 text-xs md:text-sm">Laarni Lagman</p>
+                  <p className="text-foreground/90 text-xs md:text-sm">Jennifer Labitad</p>
+                  <p className="text-foreground/90 text-xs md:text-sm">Daphne Pearl Viernes</p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Best Men and Matrons of Honor */}
+          {/* Best Man and Matrons of Honor */}
           <div className="grid grid-cols-2 gap-4 md:gap-8 mb-8">
             <div>
-              <h4 className="text-sm md:text-md font-semibold text-foreground mb-4">Best Men</h4>
+              <h4 className="text-sm md:text-md font-semibold text-foreground mb-4">Best Man</h4>
               <div className="space-y-1 md:space-y-2">
-                <p className="text-foreground/90 text-xs md:text-sm">Julius Milo</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Armando Espinoza, Jr.</p>
+                <p className="text-foreground/90 text-xs md:text-sm">Nikko John Layaoen</p>
               </div>
             </div>
             <div>
               <h4 className="text-sm md:text-md font-semibold text-foreground mb-4">Matrons of Honor</h4>
               <div className="space-y-1 md:space-y-2">
-                <p className="text-foreground/90 text-xs md:text-sm">Jacklyn Raymundo</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Jenine Espinoza</p>
+                <p className="text-foreground/90 text-xs md:text-sm">Rose Ann Castillo</p>
+                <p className="text-foreground/90 text-xs md:text-sm">Lovely Jame Montalban</p>
               </div>
             </div>
           </div>
@@ -105,100 +93,57 @@ const EntourageSection = () => {
           {/* Secondary Sponsors */}
           <div className="mb-8">
             <h3 className="text-xl md:text-2xl font-display italic text-foreground mb-6">Secondary Sponsors</h3>
-            <div className="grid grid-cols-3 gap-2 md:gap-8">
+            <div className="grid grid-cols-2 gap-2 md:gap-8">
               <div>
                 <h4 className="text-sm md:text-md font-semibold text-foreground mb-2 md:mb-4">Veil</h4>
                 <div className="space-y-1 md:space-y-2">
-                  <p className="text-foreground/90 text-xs md:text-sm">John Paul Ignacio</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Shila May Santilles</p>
-                </div>
-              </div>
-              <div>
-                <h4 className="text-sm md:text-md font-semibold text-foreground mb-2 md:mb-4">Candle</h4>
-                <div className="space-y-1 md:space-y-2">
-                  <p className="text-foreground/90 text-xs md:text-sm">Jeffrey Pesinable</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Nikka Cruz</p>
+                  <p className="text-foreground/90 text-xs md:text-sm">Steven-Ace Lopez</p>
+                  <p className="text-foreground/90 text-xs md:text-sm">Clarissa May Castillo</p>
                 </div>
               </div>
               <div>
                 <h4 className="text-sm md:text-md font-semibold text-foreground mb-2 md:mb-4">Cord</h4>
                 <div className="space-y-1 md:space-y-2">
-                  <p className="text-foreground/90 text-xs md:text-sm">Darwin Batain</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Christine Jireh Emperador</p>
+                  <p className="text-foreground/90 text-xs md:text-sm">Jeric Lazo</p>
+                  <p className="text-foreground/90 text-xs md:text-sm">Jane Cindy Estanislao</p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Bridesmaids and Groomsmen */}
+          {/* Bridesmaid and Groomsman */}
           <div className="grid grid-cols-2 gap-4 md:gap-8 mb-8">
             <div>
-              <h4 className="text-sm md:text-md font-semibold text-foreground mb-4">Bridesmaids</h4>
+              <h4 className="text-sm md:text-md font-semibold text-foreground mb-4">Groomsman</h4>
               <div className="space-y-1 md:space-y-2">
-                <p className="text-foreground/90 text-xs md:text-sm">Joana Rose Villaceran</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Kimbie Cedro</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Imee Kathleen Onte</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Edna Barreras</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Patricia Marie Elizon</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Aila Grace de Castro</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Khia Exechel Yancha</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Meryll Llenado</p>
+                <p className="text-foreground/90 text-xs md:text-sm">Kurt Justin Parayno</p>
               </div>
             </div>
             <div>
-              <h4 className="text-sm md:text-md font-semibold text-foreground mb-4">Groomsmen</h4>
+              <h4 className="text-sm md:text-md font-semibold text-foreground mb-4">Bridesmaid</h4>
               <div className="space-y-1 md:space-y-2">
-                <p className="text-foreground/90 text-xs md:text-sm">John Carlo Villaceran</p>
-                <p className="text-foreground/90 text-xs md:text-sm">John Cristopher Ignacio</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Gerald Cervantes</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Jayboy Bordios</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Rheymart Romero</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Jonnel Balbieran</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Angelo Joshua Ramos</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Magic Desmonte</p>
+                <p className="text-foreground/90 text-xs md:text-sm">Alexandria Tindugan</p>
               </div>
             </div>
           </div>
 
-          {/* Junior Attendants */}
-          <div className="grid grid-cols-2 gap-4 md:gap-8 mb-8">
-            <div>
-              <h4 className="text-sm md:text-md font-semibold text-foreground mb-4">Jr. Groomsmen</h4>
-              <div className="space-y-1 md:space-y-2">
-                <p className="text-foreground/90 text-xs md:text-sm">James Alexander Deza</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Flavio Deza, III</p>
-                <p className="text-foreground/90 text-xs md:text-sm">John Brent Quilao</p>
-              </div>
-            </div>
-            <div>
-              <h4 className="text-sm md:text-md font-semibold text-foreground mb-4">Jr. Bridesmaids</h4>
-              <div className="space-y-1 md:space-y-2">
-                <p className="text-foreground/90 text-xs md:text-sm">Kristine Bernadette Deza</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Ashley Joy Castro</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Sheian Therese Jesry Judicpa</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Other Special Roles */}
+          {/* Special Roles */}
           <div className="space-y-6">
             <div>
               <h4 className="text-sm md:text-md font-semibold text-foreground mb-4">Special Roles</h4>
               <div className="grid grid-cols-2 gap-2 md:gap-4">
-                <p className="text-foreground/90 text-xs md:text-sm"><span className="text-foreground font-medium">Coin Bearer:</span> Sam Gabriel Castro</p>
-                <p className="text-foreground/90 text-xs md:text-sm"><span className="text-foreground font-medium">Bible Bearer:</span> Jeremy Morito</p>
-                <p className="text-foreground/90 text-xs md:text-sm"><span className="text-foreground font-medium">Ring Bearer:</span> Ashton Craig Espinoza</p>
-                <p className="text-foreground/90 text-xs md:text-sm"><span className="text-foreground font-medium">Banner Bearer:</span> Marissa Deza</p>
+                <p className="text-foreground/90 text-xs md:text-sm"><span className="text-foreground font-medium">Coin Bearer:</span> Prince Jewel Penaflor</p>
+                <p className="text-foreground/90 text-xs md:text-sm"><span className="text-foreground font-medium">Bible Bearer:</span> Kyle Raven Penaflor</p>
+                <p className="text-foreground/90 text-xs md:text-sm"><span className="text-foreground font-medium">Ring Bearer:</span> Isaiah Nash Tulio</p>
+                <p className="text-foreground/90 text-xs md:text-sm"><span className="text-foreground font-medium">Banner Bearer:</span> Mark Jeremy Tindugan</p>
               </div>
             </div>
-            
+
             <div>
               <h4 className="text-sm md:text-md font-semibold text-foreground mb-4">Flower Girls</h4>
               <div className="grid grid-cols-2 gap-2 md:gap-4">
-                <p className="text-foreground/90 text-xs md:text-sm">LJ Deza</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Lorraine Deza</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Ashley Sophia Salavaria</p>
-                <p className="text-foreground/90 text-xs md:text-sm">Alexia Beatrix Raymundo</p>
+                <p className="text-foreground/90 text-xs md:text-sm">Geleny Faith Dela Cuadra</p>
+                <p className="text-foreground/90 text-xs md:text-sm">Khristine Mhae Dela Cuadra</p>
               </div>
             </div>
           </div>
