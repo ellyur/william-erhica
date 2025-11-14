@@ -104,10 +104,6 @@ const Index = () => {
         <main className="relative z-10">
           <HeroSection />
           <InvitationRevealSection />
-          <CoverSection
-            videoUrl="https://res.cloudinary.com/dt5dy99qx/video/upload/v1763105406/Untitled_video_-_Made_with_Clipchamp_2_i5fx9p.mp4"
-            alt="William & Erhica Wedding Cover Video - After Know Us"
-          />
           <CountdownSection />
           <StorySection />
           <CoverSection
@@ -137,6 +133,10 @@ const Index = () => {
           <SaveTheDateSection />
           <MemorableMomentsSection />
           <RSVPSection />
+          <CoverSection
+            videoUrl="https://res.cloudinary.com/dt5dy99qx/video/upload/v1763105406/Untitled_video_-_Made_with_Clipchamp_2_i5fx9p.mp4"
+            alt="William & Erhica Wedding Cover Video - After RSVP"
+          />
           <EntourageSection />
           <CoverSection
             imageUrl={cover3Image}
