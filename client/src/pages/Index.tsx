@@ -105,7 +105,7 @@ const Index = () => {
           <HeroSection />
           <InvitationRevealSection />
           <CoverSection
-            videoUrl="https://res.cloudinary.com/ds2vff7kd/video/upload/v1763097101/cover-new_lr0mhv.mp4"
+            videoUrl="https://res.cloudinary.com/ds2vff7kd/video/upload/v1763097569/Untitled_video_-_Made_with_Clipchamp_lblqed.mp4"
             alt="William & Erhica Wedding Cover Video - After Know Us"
           />
           <CountdownSection />
@@ -126,7 +126,7 @@ const Index = () => {
           />
           <DressCodeSection />
           <CoverSection
-            videoUrl="https://res.cloudinary.com/ds2vff7kd/video/upload/v1763097088/cover-new1_dr1bo6.mp4"
+            videoUrl="https://res.cloudinary.com/ds2vff7kd/video/upload/v1763097571/Untitled_video_-_Made_with_Clipchamp_1_b32zdj.mp4"
             alt="William & Erhica Wedding Cover Video - After Attire Guide"
           />
           <CoverSection
