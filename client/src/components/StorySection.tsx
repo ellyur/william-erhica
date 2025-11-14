@@ -23,24 +23,38 @@ const StorySection = () => {
   const storyCards = [
     {
       id: 1,
-      title: "December 3, 2012",
-      text: "The day our love story officially began.",
+      title: "Two Sides of the Same Ledger",
+      text: "We met while studying Accountancy at TIP-QC. It wasn't exactly a date, but we began spending a lot of time together — talking, discovering our shared dreams and interests, and slowly growing closer. Before we knew it, we were together.",
       image: storyImage1,
       icon: Heart
     },
     {
       id: 2, 
-      title: "January 1, 2024",
-      text: "A new chapter started with a ring and a promise.",
+      title: "A perfect reconciliation",
+      text: "We love eating out, exploring new places, watching movies, playing games, and planning trips with our families. We enjoy deep talks about life, our goals, and the future we're building together.",
       image: storyImage2,
       icon: Gem
     },
     {
       id: 3,
-      title: "January 10, 2026", 
-      text: "The day we say \"I do\" and start our happily ever after.",
+      title: "Grace: God's Adjusting Entry", 
+      text: "Encountered God's grace and have been through a journey of different stages from Elevate to B1G, to being part of a Couples Dgroup we decided to grow our relationship fueled by Faith and guided by Grace.",
       image: storyImage3,
       icon: Church
+    },
+    {
+      id: 4,
+      title: "Proposal Approved — Love Recorded in the Books.",
+      text: "After 11 wonderful years, A dream proposal was made in front of our loved ones - and She said Yes.",
+      image: storyImage4,
+      icon: Gem
+    },
+    {
+      id: 5,
+      title: "Two Accounts, One Ledger — Forever in Balance",
+      text: "On Jan 10, 2026, we decided to tie the knot and finally live the life we've always dreamed of.",
+      image: storyImage5,
+      icon: Heart
     }
   ];
 

@@ -27,43 +27,11 @@ const QuizGame = ({ onComplete, animationsEnabled }: QuizGameProps) => {
   const questions: Question[] = [
     {
       id: 1,
-      question: "Who's the designated chef in the relationship?",
-      options: ["Bride", "Groom", "Both", "Answer not given"],
+      question: "How long have we been in a relationship?",
+      options: ["12+", "11+", "10+", "13+"],
       correctAnswer: 1,
-      correctReaction: "🎯 Perfect! The Groom is the chef!",
-      incorrectReaction: "😄 Nice try! But that's not quite right!"
-    },
-    {
-      id: 2,
-      question: "Who is more likely to cry during a movie?",
-      options: ["Bride", "Groom", "Both", "Answer not given"],
-      correctAnswer: 0,
-      correctReaction: "✨ Amazing! The Bride gets emotional!",
-      incorrectReaction: "💫 Not quite, but good guess!"
-    },
-    {
-      id: 3,
-      question: "Where did they first meet?",
-      options: ["Fast food restaurant", "Charity Work", "College", "Answer not given"],
-      correctAnswer: 2,
-      correctReaction: "💕 Perfect! That's where their story began!",
-      incorrectReaction: "💭 Ooh, so close but not quite!"
-    },
-    {
-      id: 4,
-      question: "Where was their first trip together?",
-      options: ["Cebu", "Marinduque", "Ilocos", "Answer not given"],
-      correctAnswer: 2,
-      correctReaction: "🌟 Excellent! Ilocos holds special memories!",
-      incorrectReaction: "🎪 Good thinking, but that's not it!"
-    },
-    {
-      id: 5,
-      question: "How long are they in a relationship?",
-      options: ["5yrs", "11yrs", "14yrs", "Answer not given"],
-      correctAnswer: 3,
-      correctReaction: "🎉 Brilliant! Going 13yrs on Dec 3!",
-      incorrectReaction: "🎈 Almost there, but not quite!"
+      correctReaction: "🎉 Perfect! 11+ years together!",
+      incorrectReaction: "💕 Almost! But that's not quite right!"
     }
   ];
 

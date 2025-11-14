@@ -2,85 +2,85 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Champagne & Beige Earth Tone Design System */
+/* Pastel Pink Wedding Design System */
 
 @layer base {
   :root {
-    /* 70-20-10 Color Rule: Champagne & Beige Theme */
+    /* 70-20-10 Color Rule: Pastel Pink Theme */
     
-    /* 70% PRIMARY - Soft Warm Backgrounds (Dominant) */
-    --background: 35 30% 97%; /* #FAF7F2 - Soft warm white/cream */
-    --foreground: 30 15% 28%; /* #4A4139 - Deep warm brown text */
+    /* 70% PRIMARY - Soft Pink Backgrounds (Dominant) */
+    --background: 350 50% 97%; /* #FDF5F7 - Soft pastel pink/white */
+    --foreground: 340 35% 25%; /* #5C2E3A - Deep rose text */
 
     /* Card Colors - Primary Palette */
-    --card: 35 25% 95%; /* #F5F0E8 - Light beige cards */
-    --card-foreground: 30 15% 28%; /* #4A4139 - Deep warm brown text */
+    --card: 350 45% 95%; /* #FAEEF2 - Light pink cards */
+    --card-foreground: 340 35% 25%; /* #5C2E3A - Deep rose text */
 
     /* Popover Colors - Primary Palette */
-    --popover: 35 20% 93%; /* #EFE8DC - Warm beige */
-    --popover-foreground: 30 15% 28%; /* #4A4139 - Deep warm brown text */
+    --popover: 350 40% 93%; /* #F7E5EC - Soft pink */
+    --popover-foreground: 340 35% 25%; /* #5C2E3A - Deep rose text */
 
     /* Brand Color */
-    --brand: 35 45% 65%; /* #D4A574 - Champagne gold - Main brand color */
+    --brand: 350 60% 75%; /* #F5A3BA - Pastel pink - Main brand color */
     
-    /* 20% SECONDARY - Champagne & Gold (Supporting) */
-    --primary: 35 45% 65%; /* #D4A574 - Champagne gold primary */
-    --primary-foreground: 30 15% 28%; /* #4A4139 - Deep warm brown text */
+    /* 20% SECONDARY - Pink Shades (Supporting) */
+    --primary: 350 60% 75%; /* #F5A3BA - Pastel pink primary */
+    --primary-foreground: 340 35% 25%; /* #5C2E3A - Deep rose text */
 
     /* Secondary Colors - Supporting Palette */
-    --secondary: 30 20% 88%; /* #E5DDD0 - Light taupe secondary */
-    --secondary-foreground: 30 15% 28%; /* #4A4139 - Deep warm brown text */
+    --secondary: 345 40% 88%; /* #F2D6DE - Light rose secondary */
+    --secondary-foreground: 340 35% 25%; /* #5C2E3A - Deep rose text */
 
     /* Muted Colors - Supporting Palette */
-    --muted: 30 15% 85%; /* #DDD5C8 - Muted beige */
-    --muted-foreground: 30 10% 45%; /* #6B5D52 - Medium brown text */
+    --muted: 345 35% 85%; /* #EBCAD4 - Muted pink */
+    --muted-foreground: 340 25% 45%; /* #8A5266 - Medium rose text */
 
-    /* 10% ACCENT - Warm Earth Tones (Standout Elements & CTAs) */
-    --accent: 30 30% 70%; /* #C19A6B - Warm caramel gold */
-    --accent-foreground: 30 15% 28%; /* #4A4139 - Deep warm brown text */
+    /* 10% ACCENT - Vibrant Pink (Standout Elements & CTAs) */
+    --accent: 345 55% 70%; /* #E88FA8 - Vibrant pink */
+    --accent-foreground: 340 35% 25%; /* #5C2E3A - Deep rose text */
 
     /* Gold/Special Accent - for CTAs and highlights */
-    --gold: 35 45% 65%; /* #D4A574 - Champagne gold for buttons */
-    --gold-foreground: 30 15% 28%; /* #4A4139 - Deep warm brown text */
+    --gold: 350 60% 75%; /* #F5A3BA - Pastel pink for buttons */
+    --gold-foreground: 340 35% 25%; /* #5C2E3A - Deep rose text */
     
     /* Bright Gold - for emphasis */
-    --gold-bright: 35 50% 75%; /* #E8C99B - Light champagne */
+    --gold-bright: 350 65% 80%; /* #F9BDCD - Light pastel pink */
 
     /* Rose Gold Palette - Soft accents */
-    --rose-gold: 25 35% 75%; /* #D4AF91 - Soft rose gold */
-    --rose-gold-dark: 25 30% 65%; /* #C19A82 - Darker rose gold */
-    --amber-glow: 30 40% 70%; /* #D9B894 - Warm amber glow */
-    --warm-light: 35 35% 80%; /* #E5D3C8 - Dusty pink accent */
+    --rose-gold: 340 50% 75%; /* #F0A3B5 - Soft rose pink */
+    --rose-gold-dark: 340 45% 65%; /* #DE7E96 - Darker rose pink */
+    --amber-glow: 345 50% 70%; /* #E895A8 - Pink glow */
+    --warm-light: 350 45% 80%; /* #F5B8C8 - Dusty pink accent */
 
     /* Earth Tone Palette - Natural accents */
-    --earth-taupe: 30 20% 62%; /* #B8A088 - Warm taupe */
-    --earth-brown: 30 15% 58%; /* #9B8B7E - Soft brown */
-    --earth-deep: 30 15% 48%; /* #8B7D6B - Deep taupe */
-    --earth-ivory: 60 100% 97%; /* #FFFFF0 - Ivory */
+    --earth-taupe: 345 35% 62%; /* #C48A9A - Warm pink taupe */
+    --earth-brown: 340 30% 58%; /* #B57E8E - Soft mauve */
+    --earth-deep: 340 30% 48%; /* #996B7A - Deep mauve */
+    --earth-ivory: 350 100% 97%; /* #FFF0F5 - Pink ivory */
 
     /* Destructive */
     --destructive: 0 70% 55%;
     --destructive-foreground: 0 0% 100%;
 
     /* Borders & Inputs */
-    --border: 30 15% 85%; /* #DDD5C8 - Soft beige border */
-    --input: 35 25% 95%; /* #F5F0E8 - Light beige input */
-    --ring: 35 45% 65%; /* #D4A574 - Champagne gold ring */
+    --border: 345 35% 85%; /* #EBCAD4 - Soft pink border */
+    --input: 350 45% 95%; /* #FAEEF2 - Light pink input */
+    --ring: 350 60% 75%; /* #F5A3BA - Pastel pink ring */
 
     /* Border Radius */
     --radius: 0.75rem;
 
-    /* Champagne & Beige Gradients */
-    --gradient-elegant: linear-gradient(135deg, hsl(35, 30%, 97%), hsl(35, 25%, 95%));
-    --gradient-gold: linear-gradient(135deg, hsl(35, 45%, 65%), hsl(30, 30%, 70%));
-    --gradient-light: linear-gradient(180deg, hsl(35, 30%, 97%) 0%, hsl(35, 20%, 93%) 100%);
-    --gradient-bokeh: radial-gradient(ellipse at center, hsl(35, 45%, 75%) 0%, transparent 60%);
+    /* Pastel Pink Gradients */
+    --gradient-elegant: linear-gradient(135deg, hsl(350, 50%, 97%), hsl(350, 45%, 95%));
+    --gradient-gold: linear-gradient(135deg, hsl(350, 60%, 75%), hsl(345, 55%, 70%));
+    --gradient-light: linear-gradient(180deg, hsl(350, 50%, 97%) 0%, hsl(350, 40%, 93%) 100%);
+    --gradient-bokeh: radial-gradient(ellipse at center, hsl(350, 60%, 80%) 0%, transparent 60%);
 
-    /* Soft Champagne Shadows */
-    --shadow-elegant: 0 20px 50px -10px rgba(139, 125, 107, 0.15);
-    --shadow-soft: 0 10px 30px -5px rgba(139, 125, 107, 0.1);
-    --shadow-warm: 0 15px 40px -8px rgba(212, 165, 116, 0.2);
-    --shadow-glow: 0 0 30px rgba(212, 165, 116, 0.25);
+    /* Soft Pink Shadows */
+    --shadow-elegant: 0 20px 50px -10px rgba(245, 163, 186, 0.25);
+    --shadow-soft: 0 10px 30px -5px rgba(245, 163, 186, 0.15);
+    --shadow-warm: 0 15px 40px -8px rgba(245, 163, 186, 0.3);
+    --shadow-glow: 0 0 30px rgba(245, 163, 186, 0.35);
 
     /* Elegant Typography Scale */
     --font-display: 'Boska', 'Cormorant Garamond', serif; /* Headers - Boska 700 */
@@ -92,14 +92,14 @@
     --transition-elegant: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
-    --sidebar-background: 35 25% 95%;
-    --sidebar-foreground: 30 15% 28%;
-    --sidebar-primary: 35 45% 65%;
-    --sidebar-primary-foreground: 30 15% 28%;
-    --sidebar-accent: 30 30% 70%;
-    --sidebar-accent-foreground: 30 15% 28%;
-    --sidebar-border: 30 15% 85%;
-    --sidebar-ring: 35 45% 65%;
+    --sidebar-background: 350 45% 95%;
+    --sidebar-foreground: 340 35% 25%;
+    --sidebar-primary: 350 60% 75%;
+    --sidebar-primary-foreground: 340 35% 25%;
+    --sidebar-accent: 345 55% 70%;
+    --sidebar-accent-foreground: 340 35% 25%;
+    --sidebar-border: 345 35% 85%;
+    --sidebar-ring: 350 60% 75%;
   }
 
   /* Custom Wedding Animations */
@@ -145,10 +145,10 @@
 
   @keyframes goldGlow {
     0%, 100% {
-      box-shadow: 0 0 20px rgba(212, 165, 116, 0.3);
+      box-shadow: 0 0 20px rgba(245, 163, 186, 0.4);
     }
     50% {
-      box-shadow: 0 0 40px rgba(212, 165, 116, 0.5);
+      box-shadow: 0 0 40px rgba(245, 163, 186, 0.6);
     }
   }
 
@@ -188,7 +188,7 @@
   body {
     @apply text-foreground font-body;
     font-family: var(--font-body);
-    background-color: #FAF7F2;
+    background-color: #FDF5F7;
     position: relative;
     min-height: 100vh;
     margin: 0;
@@ -202,7 +202,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(255, 250, 240, 0.5) 0%, rgba(250, 240, 230, 0.5) 100%);
+    background: linear-gradient(135deg, rgba(255, 245, 250, 0.5) 0%, rgba(253, 240, 245, 0.5) 100%);
     opacity: 0.6;
     z-index: 0;
   }
@@ -214,7 +214,7 @@
     left: 0;
     right: 0;
     height: 40%;
-    background: radial-gradient(ellipse at top, rgba(212, 165, 116, 0.08) 0%, transparent 60%);
+    background: radial-gradient(ellipse at top, rgba(245, 163, 186, 0.12) 0%, transparent 60%);
     opacity: 1;
     z-index: 0;
     pointer-events: none;
@@ -296,7 +296,7 @@
   }
 
   .hover-glow:hover {
-    box-shadow: 0 0 30px rgba(212, 165, 116, 0.4);
+    box-shadow: 0 0 30px rgba(245, 163, 186, 0.5);
   }
 
   .gold-underline {
@@ -322,8 +322,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at top left, rgba(212, 165, 116, 0.03), transparent 60%),
-                radial-gradient(circle at bottom right, rgba(193, 154, 107, 0.03), transparent 60%);
+    background: radial-gradient(circle at top left, rgba(245, 163, 186, 0.05), transparent 60%),
+                radial-gradient(circle at bottom right, rgba(232, 143, 168, 0.05), transparent 60%);
     z-index: 1;
     pointer-events: none;
   }
@@ -340,10 +340,10 @@
 
   /* Glass Morphism Effect */
   .glass-effect {
-    background: rgba(250, 247, 242, 0.85);
+    background: rgba(253, 245, 247, 0.85);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(212, 165, 116, 0.2);
+    border: 1px solid rgba(245, 163, 186, 0.2);
   }
 
   /* Clean Mobile Styles */
@@ -540,7 +540,7 @@
     animation-play-state: paused;
   }
 
-  /* Alternating Section Backgrounds - Champagne & Beige Theme */
+  /* Alternating Section Backgrounds - Pastel Pink Theme */
   .section-pastel-blue {
     background-color: hsl(var(--background));
     color: hsl(var(--foreground));

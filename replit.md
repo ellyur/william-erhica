@@ -177,3 +177,24 @@ Successfully migrated from Lovable to Replit environment:
   - Updated background music to "I Choose You" by Ryann Darling
   - Changed audio source to https://res.cloudinary.com/ds2vff7kd/video/upload/v1763092322/I_Choose_You_Official_Lyric_Video_Ryann_Darling_Original_Song_More_Wedding_Footage_jsrucf.mp3
   - Verified audio loads and plays correctly with user interaction
+  - Complete theme transformation from beige to pastel pink:
+    - Updated all CSS color variables to pastel pink palette
+    - Changed background colors from cream/beige (#FAF7F2) to soft pink (#FDF5F7)
+    - Updated primary colors from champagne gold to pastel pink (#F5A3BA)
+    - Modified foreground text from warm brown to deep rose (#5C2E3A)
+    - Transformed all gradients, shadows, and accent colors to pink tones
+    - Updated body backgrounds, overlays, and glass effects with pink hues
+  - Updated RSVP deadline to November 22, 2025
+  - Completely rewrote love story with accounting-themed content:
+    - "Two Sides of the Same Ledger" - Meeting at TIP-QC while studying Accountancy
+    - "A perfect reconciliation" - Shared activities and deep conversations
+    - "Grace: God's Adjusting Entry" - Spiritual journey through Elevate, B1G, and Couples Dgroup
+    - "Proposal Approved — Love Recorded in the Books" - 11-year relationship proposal
+    - "Two Accounts, One Ledger — Forever in Balance" - Wedding on Jan 10, 2026
+  - Simplified quiz to single question: "How long have we been in a relationship?" with answer "11+"
+  - Added new FAQ: "Can I bring a kid?" - Guests discouraged from bringing kids to the event
+  - Swapped prenup photos with cover images:
+    - Prenup photo 5 (prenup5_1762085059810.JPG) now used as cover2 image
+    - Prenup photo 7 (prenup7_1762085059811.JPG) now used as cover3 image
+    - Cover2 image (cover2_1763054214682.jpg) now displayed as prenup photo 5 in gallery
+    - Cover3 image (cover3_1763054214683.jpg) now displayed as prenup photo 7 in gallery

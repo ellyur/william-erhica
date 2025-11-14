@@ -30,6 +30,11 @@ const FAQSection = () => {
       answer: "Due to venue capacity and seating constraints, we can only accommodate guests who have been formally invited and confirmed via RSVP. We appreciate your understanding that we're unable to accommodate additional guests beyond those listed on your invitation. This helps us ensure that every guest has a comfortable and enjoyable experience at our celebration."
     },
     {
+      question: "Can I bring a kid?",
+      icon: Users,
+      answer: "We discouraged the guests to bring their kids to the event."
+    },
+    {
       question: "What should I wear?",
       icon: Calendar,
       answer: "We kindly request formal attire for our celebration. For principal sponsors: Men should wear black suit and slacks with white long sleeves; Women should wear formal dress/long gown in Blush Pink or Old Rose. For guests: Formal to semi-formal attire in colors such as Beige, Champagne, or Khaki. Please avoid wearing cream, off-white, or white colors, as these are reserved for the bride. All attire should be respectful and appropriate for a religious ceremony."
