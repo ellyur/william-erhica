@@ -1,9 +1,7 @@
 import { motion } from 'framer-motion';
 import { Camera, Gift } from 'lucide-react';
-import qrBPI from '@assets/qr_1762091778729.PNG';
-import qrMetrobank from '@assets/qr2_1762091778728.JPG';
-import qrMaya from '@assets/qr3_1762091778728.JPG';
-import qrGCash from '@assets/qr4_1762091778727.JPG';
+import qrUnionBank from '@assets/gift1_1763097898465.jpg';
+import qrInstaPay from '@assets/gift2_1763097933882.jpg';
 
 const HashtagGiftsSection = () => {
   return (
@@ -168,10 +166,10 @@ const HashtagGiftsSection = () => {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <img 
-                src={qrBPI} 
-                alt="BPI QR Code" 
+                src={qrUnionBank} 
+                alt="UnionBank InstaPay QR Code - Erhica Estanislao" 
                 className="w-full h-auto rounded-lg"
-                data-testid="img-qr-bpi"
+                data-testid="img-qr-unionbank"
               />
             </motion.div>
             <motion.div
@@ -180,34 +178,10 @@ const HashtagGiftsSection = () => {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <img 
-                src={qrMetrobank} 
-                alt="Metrobank QR Code" 
+                src={qrInstaPay} 
+                alt="InstaPay QR Code - William John D." 
                 className="w-full h-auto rounded-lg"
-                data-testid="img-qr-metrobank"
-              />
-            </motion.div>
-            <motion.div
-              className="bg-white rounded-xl p-4 shadow-lg border border-primary/20"
-              whileHover={{ scale: 1.02 }}
-              transition={{ type: "spring", stiffness: 300 }}
-            >
-              <img 
-                src={qrMaya} 
-                alt="Maya QR Code" 
-                className="w-full h-auto rounded-lg"
-                data-testid="img-qr-maya"
-              />
-            </motion.div>
-            <motion.div
-              className="bg-white rounded-xl p-4 shadow-lg border border-primary/20"
-              whileHover={{ scale: 1.02 }}
-              transition={{ type: "spring", stiffness: 300 }}
-            >
-              <img 
-                src={qrGCash} 
-                alt="GCash QR Code" 
-                className="w-full h-auto rounded-lg"
-                data-testid="img-qr-gcash"
+                data-testid="img-qr-instapay"
               />
             </motion.div>
           </motion.div>
