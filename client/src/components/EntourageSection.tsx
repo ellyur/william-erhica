@@ -56,7 +56,7 @@ const EntourageSection = () => {
                   <p className="text-foreground/90 text-xs md:text-sm">Charles Dominique Rebebes</p>
                   <p className="text-foreground/90 text-xs md:text-sm">Mark Joseph Florendo</p>
                   <p className="text-foreground/90 text-xs md:text-sm">Ryan Atezora</p>
-                  <p className="text-foreground/90 text-xs md:text-sm">Roel F. Estanislao</p>
+                  <p className="text-foreground/90 text-xs md:text-sm">Roel Estanislao</p>
                   <p className="text-foreground/90 text-xs md:text-sm">Jeremy Ebanks</p>
                 </div>
               </div>
@@ -132,8 +132,8 @@ const EntourageSection = () => {
             <div>
               <h4 className="text-sm md:text-md font-semibold text-foreground mb-4">Special Roles</h4>
               <div className="grid grid-cols-2 gap-2 md:gap-4">
-                <p className="text-foreground/90 text-xs md:text-sm"><span className="text-foreground font-medium">Coin Bearer:</span> Prince Jewel Penaflor</p>
-                <p className="text-foreground/90 text-xs md:text-sm"><span className="text-foreground font-medium">Bible Bearer:</span> Kyle Raven Penaflor</p>
+                <p className="text-foreground/90 text-xs md:text-sm"><span className="text-foreground font-medium">Coin Bearer:</span> Kyle Raven Penaflor</p>
+                <p className="text-foreground/90 text-xs md:text-sm"><span className="text-foreground font-medium">Bible Bearer:</span> Prince Jewel Penaflor</p>
                 <p className="text-foreground/90 text-xs md:text-sm"><span className="text-foreground font-medium">Ring Bearer:</span> Isaiah Nash Tulio</p>
                 <p className="text-foreground/90 text-xs md:text-sm"><span className="text-foreground font-medium">Banner Bearer:</span> Mark Jeremy Tindugan</p>
               </div>
