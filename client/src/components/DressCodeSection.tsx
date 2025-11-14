@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-import semiformalImage from "@assets/guests_1762319939682.png";
+import semiformalImage from "@assets/image_1763097807200.png";
 import formalImage from "@assets/principal-sponsors_1762319939683.png";
 
 const DressCodeSection = () => {
