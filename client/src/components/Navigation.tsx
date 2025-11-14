@@ -9,15 +9,19 @@ const Navigation = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const navItems = [
-    { name: 'Our Moments', href: '#slideshow' },
+    { name: 'Home', href: '#hero' },
+    { name: 'Invitation', href: '#invitation' },
     { name: 'Countdown', href: '#countdown' },
     { name: 'Our Story', href: '#story' },
     { name: 'Timeline', href: '#timeline' },
     { name: 'Venue', href: '#venue' },
     { name: 'Dress Code', href: '#dresscode' },
+    { name: 'Hashtag & Gifts', href: '#hashtag-gifts' },
     { name: 'Save The Date', href: '#save-the-date' },
-    { name: 'Prenup Photos', href: '#prenup-photos' },
-    { name: 'RSVP', href: '#rsvp' }
+    { name: 'Memorable Moments', href: '#memorable-moments' },
+    { name: 'RSVP', href: '#rsvp' },
+    { name: 'Entourage', href: '#entourage' },
+    { name: 'FAQ', href: '#faq' }
   ];
 
   useEffect(() => {
