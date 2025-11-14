@@ -174,3 +174,6 @@ Successfully migrated from Lovable to Replit environment:
   - Updated venue map URL to https://maps.app.goo.gl/A1zUN5iYdtF2EDJt7
   - Updated Google Maps embed with new coordinates for The Garden Hive Events Place in Antipolo City
   - Verified map displays correct location with interactive features
+  - Updated background music to "I Choose You" by Ryann Darling
+  - Changed audio source to https://res.cloudinary.com/ds2vff7kd/video/upload/v1763092322/I_Choose_You_Official_Lyric_Video_Ryann_Darling_Original_Song_More_Wedding_Footage_jsrucf.mp3
+  - Verified audio loads and plays correctly with user interaction

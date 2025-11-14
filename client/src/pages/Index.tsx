@@ -85,7 +85,7 @@ const Index = () => {
         data-testid="background-audio"
       >
         <source
-          src="https://res.cloudinary.com/dffuapdno/video/upload/v1762185963/ytmp3free.cc_walong-bilyon-tj-monterde-wedding-version-youtubemp3free.org_tsuajt.mp3"
+          src="https://res.cloudinary.com/ds2vff7kd/video/upload/v1763092322/I_Choose_You_Official_Lyric_Video_Ryann_Darling_Original_Song_More_Wedding_Footage_jsrucf.mp3"
           type="audio/mpeg"
         />
         Your browser does not support the audio element.
