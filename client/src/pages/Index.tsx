@@ -121,10 +121,6 @@ const Index = () => {
             videoUrl="https://res.cloudinary.com/dt5dy99qx/video/upload/v1763105408/Untitled_video_-_Made_with_Clipchamp_1_vpskcg.mp4"
             alt="William & Erhica Wedding Cover Video - After Attire Guide"
           />
-          <CoverSection
-            videoUrl="https://res.cloudinary.com/ds2vff7kd/video/upload/v1763094504/4_apnm5e.mp4"
-            alt="William & Erhica Wedding Cover Video 2"
-          />
           <HashtagGiftsSection />
           <SaveTheDateSection />
           <MemorableMomentsSection />
