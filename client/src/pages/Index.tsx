@@ -5,8 +5,8 @@ import HeroSection from '@/components/HeroSection';
 import MusicConsentPopup from '@/components/MusicConsentPopup';
 // Cover images from attached assets
 import cover1Image from '@assets/cover1_1763054214682.jpg';
-import cover2Image from '@assets/prenup5_1762085059810.JPG';
-import cover3Image from '@assets/prenup7_1762085059811.JPG';
+import cover2Image from '@assets/prenup5_1763094338842.jpg';
+import cover3Image from '@assets/prenup7_1763094343026.jpg';
 import CountdownSection from '@/components/CountdownSection';
 import StorySection from '@/components/StorySection';
 import ScrollTriggeredTimeline from '@/components/ScrollTriggeredTimeline';

@@ -198,3 +198,6 @@ Successfully migrated from Lovable to Replit environment:
     - Prenup photo 7 (prenup7_1762085059811.JPG) now used as cover3 image
     - Cover2 image (cover2_1763054214682.jpg) now displayed as prenup photo 5 in gallery
     - Cover3 image (cover3_1763054214683.jpg) now displayed as prenup photo 7 in gallery
+  - Updated with new cover images (Nov 14, 2025):
+    - Cover2 replaced with prenup5_1763094338842.jpg (garden scene with flowers)
+    - Cover3 replaced with prenup7_1763094343026.jpg (couple under pink umbrella)
